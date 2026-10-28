@@ -1,0 +1,6 @@
+- insert:
+    - id: robotwin-explore
+      name: '@local/robotwin-explore'
+      config:
+        python: /data/changzou/miniconda3/envs/robotwin/bin/python
+        runDir: /data/changzou/deepseek4robotics/runs/robotwin-explore

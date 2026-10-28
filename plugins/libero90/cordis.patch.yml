@@ -1,0 +1,13 @@
+- insert:
+    - id: libero90
+      name: '@local/libero90'
+      config:
+        python: /data/changzou/miniconda3/envs/ds4ro/bin/python
+        hardCap: 300
+        explorationEpisodes: 20
+        formalCount: 3
+        taskId: 0
+        port: 8766
+        gpu: "0"
+        runDir: /data/changzou/deepseek4robotics/runs/libero90
+        workspace: /data/changzou/deepseek4robotics/runs/libero90/agent

@@ -1,0 +1,13 @@
+.env
+.dsh-home/
+runs/
+.socks/
+__pycache__/
+*.pyc
+.venv/
+
+# Upstream checkouts, model weights, and datasets. About 35 GB.
+third_party/
+
+# CPython 3.8 numpy and h5py dropped into the skill tree. The servers do not import it.
+skills/libero-control/vendor/

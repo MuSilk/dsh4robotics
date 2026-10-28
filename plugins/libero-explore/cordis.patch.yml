@@ -1,0 +1,6 @@
+- insert:
+    - id: libero-explore
+      name: '@local/libero-explore'
+      config:
+        python: /data/changzou/miniconda3/envs/ds4ro/bin/python
+        runDir: /data/changzou/deepseek4robotics/runs/libero-explore

@@ -1,0 +1,21 @@
+{
+  "name": "@local/libero-explore",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "LIBERO-90 exploration: reset rounds, a shared step budget, and one submitted controller.",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "worker.py",
+    "api/runtime.py",
+    "api/__init__.py",
+    "examples/controller.py",
+    "cordis.patch.yml"
+  ],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" }
+  }
+}

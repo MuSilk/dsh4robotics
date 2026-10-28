@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "RoboTwin 探索",
+    "description": "在动作预算内随机 reset。一个任务，或全部 RoboTwin 任务。提交后再在没练过的 seed 上重放。"
+  }
+}

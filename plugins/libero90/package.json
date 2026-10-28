@@ -1,0 +1,21 @@
+{
+  "name": "@local/libero90",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "LIBERO-90 robot service for interactive control, register, and finish.",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "worker.py",
+    "api/runtime.py",
+    "api/__init__.py",
+    "examples/controller.py",
+    "cordis.patch.yml"
+  ],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" }
+  }
+}
